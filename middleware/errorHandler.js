@@ -1,4 +1,4 @@
-function errorHandler(err,req,res,next){
+export default function errorHandler(err,req,res,next){
    const errStatus=err.status || 500;
    const errmessage= err.message||"Internal Server Error";
 
@@ -10,4 +10,3 @@ function errorHandler(err,req,res,next){
    });
 }
 
-export default errorHandler;

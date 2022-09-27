@@ -6,7 +6,7 @@
   "repository": "https://github.com/Rounak00/BlogNest_API.git",
   "author": "Rounak Mukherjee <80785919+Rounak00@users.noreply.github.com>",
   "license": "MIT",
-  "type": "module",
+  
   "scripts": {
     "dev": "nodemon -r esm index.js",
     "start": "node -r esm index.js"
